@@ -7,21 +7,22 @@ package Area;
 		}
 
 	@Override
-	public void Calcular(Figura Base, Figura Altura) {
+	public void Calcular(Figura informacion) {
 		// TODO Auto-generated method stub
-		double base=Base.getBase();
-		double altura=Altura.getAltura();
-		System.out.println("ingresa el tipo de figura que vas a calcular cuardro\n");
-		
+		double base=informacion.getBase();
+		double altura=informacion.getAltura();
+		System.out.println("\n \ningresa el tipo de figura que vas a calcular cuardro\n");
+	
 		double resultado = altura*base;
 		System.out.println(getNombre() + " tiene un resultado de un área =" + resultado);
 	}
 
 	@Override
-	public void Calcular(Figura perimetro) {
-		// TODO Auto-generated method stub
+	public void Calcular(Figura Base, Figura Altura) {
 		
 	}
+
+	
 
 	
 

@@ -6,8 +6,8 @@ class Circulo extends Figura {
     }
 
     @Override
-    public void Calcular(Figura perimetro) {
-        double perimetrocuadrado = perimetro.getPerimetro();
+    public void Calcular(Figura informacion) {
+        double perimetrocuadrado = informacion.getPerimetro();
         System.out.println("Ingresa el tipo de figura que vas a calcular\n");
 
         double resultado = 3.1416 * perimetrocuadrado * perimetrocuadrado;
